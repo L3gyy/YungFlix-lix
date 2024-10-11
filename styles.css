@@ -1,0 +1,226 @@
+Body {
+
+    color: white;
+    background: rgb(22, 21, 21);
+    margin: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 50px;
+
+}
+
+header {
+   
+    border-bottom: solid 2px rgb(98, 251, 22);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(98, 251, 22);
+    font-family: "Playwrite CU", cursive;
+
+
+
+}
+
+
+
+.Hype {
+
+    background: linear-gradient(500deg, rgb(10, 51, 2) 1%, rgb(130, 212, 37) 99%);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    padding-right: 100px;
+
+
+}
+
+h1 {
+    font-size: 60px;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.img {
+    height: 50%;
+    
+}
+
+.Outros-Àlbuns {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+.Outros-Àlbuns img {
+    opacity: 0.5;
+    height: 200px;
+
+}
+
+.Outros-Àlbuns img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(98, 251, 22);
+    transition: 1.5s;
+
+}
+
+h2 {
+    color: rgb(250, 253, 252);
+}
+
+.Outros-Àlbuns h2 {
+
+    color: rgb(250, 253, 252);
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.TokyoM {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+.TokyoM img {
+    opacity: 0.5;
+}
+
+.TokyoM img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(98, 251, 22);
+    transition: 1.5s;
+ 
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.BonsT {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.BonsT img {
+    opacity: 0.5;
+}
+
+.BonsT img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(98, 251, 22);
+    transition: 1.5s;
+}
+
+.Spf {
+
+    background: linear-gradient(500deg, rgb(10, 51, 2) 1%, rgb(37, 212, 69) 99%);
+    padding-bottom: 2px;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.Gm {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.Gm img {
+    opacity: 0.5;
+}
+
+.Gm img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(98, 251, 22);
+    transition: 1.5s;
+}
+
+.content {
+    height: 315px;
+    width: 560px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.navegation {
+    position: absolute;
+    margin-bottom: 13%;
+    bottom: 20px;
+    left: 80%;
+    transform: translate(-80%);
+    display: flex;
+}
+
+.bar {
+    width: 40px;
+    height: 10px;
+    border: 2px solid rgb(6, 252, 22);
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.bar:hover {
+    background-color: rgb(50, 252, 5);
+}
+
+input { 
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.radio {
+    width: 20%;
+    transition: .6s;
+}
+
+.radio img {
+    width: 100%;
+    height: 100%;
+}
+
+#radio1:checked~.s1 {
+    margin-left: 0%;
+}
+#radio2:checked~.s1 {
+    margin-left: -20%;
+}
+#radio3:checked~.s1 {
+    margin-left: -40%;
+}
+#radio4:checked~.s1 {
+    margin-left: -60%;
+}
+
+#radio5:checked~.s1 {
+    margin-left: -80%;
+}
+
+.imgs img{
+    height: 200px;
+}
+
+.imgs2 img{
+    height: 250px;
+}
